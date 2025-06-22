@@ -2,10 +2,10 @@ import { Pool } from "pg";
 
 // 환경 변수에서 데이터베이스 설정 로드
 const DB_CONFIG = {
-  user: process.env.DB_USER || "postgres",
-  host: process.env.DB_HOST || "localhost",
-  database: process.env.DB_NAME || "postgres",
-  password: process.env.DB_PASSWORD || "wel09090",
+  user: process.env.DB_USER || "",
+  host: process.env.DB_HOST || "",
+  database: process.env.DB_NAME || "",
+  password: process.env.DB_PASSWORD || "",
   port: parseInt(process.env.DB_PORT, 10) || 5432,
 };
 
