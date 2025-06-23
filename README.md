@@ -235,7 +235,3 @@ npm run dev
 - `/api/db/tables`: 데이터베이스 테이블 목록 가져오기
 - `/api/db/analyze`: SQL 쿼리 분석
 - `/api/db/execute`: SQL 쿼리 실행
-
-## 라이선스
-
-APACHE 2.0
